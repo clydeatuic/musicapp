@@ -23,8 +23,8 @@ function x(){
 				<h1>${name}</h1>
 				<img src="${image1}" />
 				<audio controls>
-				  <source src="${mp3_1}" type="audio/mpeg">
-				Your browser does not support the audio element.
+					<source src="${mp3_1}" type="audio/mpeg">
+					Your browser does not support the audio element.
 				</audio>	
 			`;
 			$('#app').html(html);			
